@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>0.5.3-preview</Version>
+    <Version>0.5.4-preview</Version>
     <PackageId>DontPanicLabs.CodeAnalysis</PackageId>
     <Title>Don't Panic Labs Code Analysis</Title>
     <Authors>Don't Panic Labs LLC</Authors>
@@ -25,7 +25,7 @@
 
   <ItemGroup>
     <None Include="DontPanicLabs.CodeAnalysis.props" Pack="true" PackagePath="\build" />
-    <Content Update=".editorconfig" Pack="true" PackagePath="content\rules" />
+    <None Update=".editorconfig" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
