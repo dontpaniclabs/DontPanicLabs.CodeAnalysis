@@ -2,6 +2,7 @@
   <PropertyGroup>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +10,7 @@
   </ItemGroup>
 
   <Target Name="CopyEditorConfig" BeforeTargets="BeforeBuild">
+    <Message Text="Copying the .editorconfig file from '@(EditorConfigFilesToCopy)' to '$(MSBuildProjectDirectory)'"/>
     <Copy
       SourceFiles="@(EditorConfigFilesToCopy)"
       DestinationFolder="$(MSBuildProjectDirectory)"
