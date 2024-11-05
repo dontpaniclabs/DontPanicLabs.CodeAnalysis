@@ -37,6 +37,9 @@
       <PackagePath></PackagePath>
       <Link>dpl_logo_128_square.png</Link>
     </None>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
   </ItemGroup>
 
 </Project>
