@@ -1,4 +1,4 @@
-name: "Ifx nuget deploy"
+name: "Code Analysis nuget deploy"
 
 on:
   workflow_dispatch:
