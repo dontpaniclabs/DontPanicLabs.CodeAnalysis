@@ -9,7 +9,7 @@
     <Title>Don't Panic Labs Code Analysis</Title>
     <Authors>Don't Panic Labs LLC</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Description>Base Service Contracts</Description>
+    <Description>Code Analysis Rules</Description>
     <Copyright>Copyright ⓒ Don't Panic Labs LLC 2024</Copyright>
     <PackageProjectUrl>https://github.com/dontpaniclabs/DontPanicLabs.CodeAnalysis</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dontpaniclabs/DontPanicLabs.CodeAnalysis</RepositoryUrl>
@@ -24,11 +24,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="DontPanicLabs.EditorConfig.props" Pack="true" PackagePath="\build" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update=".editorconfig" Pack="true" PackagePath="\" />
+    <None Include="DontPanicLabs.CodeAnalysis.props" Pack="true" PackagePath="\build" />
+    <Content Update=".editorconfig" Pack="true" PackagePath="content\rules" />
   </ItemGroup>
 
   <ItemGroup>
