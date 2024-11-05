@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EditorConfigFilesToCopy Include="$(MSBuildThisFileDirectory)..\.editorconfig" />
+    <EditorConfigFilesToCopy Include="$(MSBuildThisFileDirectory)..\content\rules\.editorconfig" />
   </ItemGroup>
 
   <Target Name="CopyEditorConfig" BeforeTargets="BeforeBuild">
