@@ -62,7 +62,7 @@ namespace DontPanicLabs.CodeAnalysis
                 .ToArray();
 
             Func<int, int> lambda = i => i * 2;
-            Func<int, int> lambdaWithBrackets = static i => i * 2;
+            Func<int, int> staticLambda = static i => i * 2;
 
             var class1 = new Class();
             var class2 = new Class { Property = 42 };
@@ -82,7 +82,7 @@ namespace DontPanicLabs.CodeAnalysis
             StaticLocalFunction();
             LocalFunction();
             Console.WriteLine(lambda(42));
-            Console.WriteLine(lambdaWithBrackets(42));
+            Console.WriteLine(staticLambda(42));
             Console.WriteLine(class1.Property);
             Console.WriteLine(class2.Property);
         }
