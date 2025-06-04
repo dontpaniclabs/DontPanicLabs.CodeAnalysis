@@ -153,9 +153,6 @@ dotnet_diagnostic.IDE0059.severity = error
 # Do not have unused parameters in methods
 dotnet_diagnostic.IDE0060.severity = error
 
-# License header.
-file_header_template = Licensed to the.NET Foundation under one or more agreements.\nThe.NET Foundation licenses this file to you under the MIT license.
-
 # JSON files
 [*.json]
 indent_size = 2
