@@ -147,7 +147,7 @@ csharp_space_between_square_brackets = false
 # Require braces on all control flow statements 
 dotnet_diagnostic.IDE0011.severity = error
 # Results of expressions must be used
-dotnet_diagnostic.IDE0058.severity = error
+dotnet_diagnostic.IDE0058.severity = none
 # Do not assign values if they are not used
 dotnet_diagnostic.IDE0059.severity = error
 # Do not have unused parameters in methods
