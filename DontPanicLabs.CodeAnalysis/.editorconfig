@@ -152,6 +152,8 @@ dotnet_diagnostic.IDE0058.severity = none
 dotnet_diagnostic.IDE0059.severity = error
 # Do not have unused parameters in methods
 dotnet_diagnostic.IDE0060.severity = error
+# Dispose objects before losing scope
+dotnet_diagnostic.CA2000.severity = error
 
 # JSON files
 [*.json]
